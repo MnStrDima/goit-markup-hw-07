@@ -20,8 +20,8 @@
 }
 
 .modal-title {
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-modal-title;
   line-height: 1.15;
   color: $links-color;
 }
@@ -60,7 +60,7 @@
 
 .form-field:focus-within > .comment-label,
 .comment-input:not(:placeholder-shown) + .comment-label {
-  font-size: 12px;
+  font-size: $font-size-small;
   transform: translateY(-30px);
   color: $accent-color;
 }
@@ -84,7 +84,7 @@
 
 .form-field:focus-within > .form-label,
 .form-input:not(:placeholder-shown) + .form-label {
-  font-size: 12px;
+  font-size: $font-size-small;
   line-height: 1.14;
   transform: translate(-26px, -38px);
   color: $accent-color;

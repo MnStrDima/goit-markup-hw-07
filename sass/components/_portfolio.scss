@@ -10,7 +10,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    font-size: $font-size-18;
+    font-size: $font-size-description;
     line-height: 1.56;
     color: $bg-color;
     text-align: start;
@@ -24,8 +24,8 @@
   }
 
   & .subtitle {
-    font-weight: $font-weight-700;
-    font-size: $font-size-18;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-description;
     line-height: 2;
     letter-spacing: 0.06em;
     color: $links-color;
@@ -35,7 +35,7 @@
   }
 
   & .type {
-    font-size: $font-size-16;
+    font-size: $font-size-subtitle;
     line-height: 1.87;
     color: $font-color;
     text-align: start;

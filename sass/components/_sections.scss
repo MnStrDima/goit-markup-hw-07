@@ -9,7 +9,7 @@
 
 .section-title {
   font-weight: 700;
-  font-size: $font-size-36;
+  font-size: $font-size-title;
   line-height: 1.16;
   text-align: center;
   color: $links-color;
@@ -18,8 +18,8 @@
 }
 
 .section-subtitle {
-  font-weight: 700;
-  font-size: $font-size-14;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-main;
   line-height: 1.14;
   text-transform: uppercase;
   color: $links-color;
@@ -48,8 +48,8 @@
 }
 
 .section-subtitle.team {
-  font-weight: 500;
-  font-size: $font-size-16;
+  font-weight: $font-weight-semi-bold;
+  font-size: $font-size-subtitle;
   line-height: 1.18;
   text-align: center;
   text-transform: none;
@@ -183,7 +183,7 @@
 }
 
 .position {
-  font-size: $font-size-16;
+  font-size: $font-size-subtitle;
   line-height: 1.18;
   text-align: center;
   color: $font-color;

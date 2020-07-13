@@ -58,8 +58,8 @@ footer {
 
 .footer-text {
   display: block;
-  font-weight: 700;
-  line-height: 16px;
+  font-weight: $font-weight-bold;
+  line-height: 1.14;
   text-align: left;
   text-transform: uppercase;
   color: $bg-color;
@@ -72,7 +72,7 @@ footer {
 .footer-form-input {
   width: 358px;
   height: 50px;
-  font-size: 16px;
+  font-size: $font-size-subtitle;
   line-height: 1.25;
   padding: 15px 16px;
   background-color: transparent;

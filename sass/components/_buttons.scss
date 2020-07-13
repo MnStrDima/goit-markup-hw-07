@@ -1,7 +1,7 @@
 .button-primary {
   display: inline-flex;
   font-weight: 700;
-  font-size: 16px;
+  font-size: $font-size-subtitle;
   line-height: 1.87;
   align-items: center;
   justify-content: center;
@@ -30,8 +30,8 @@
 }
 
 .filter-button {
-  font-weight: 500;
-  font-size: $font-size-16;
+  font-weight: $font-weight-semi-bold;
+  font-size: $font-size-subtitle;
   line-height: 1.62;
   text-align: center;
   border: 1px solid transparent;
